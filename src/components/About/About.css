@@ -1,0 +1,53 @@
+.about{
+    width: 90%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AboutIMage{
+    position: relative;
+    flex-basis: 40%;
+}
+
+.AboutIMage .abouticon{
+    width: 100%;
+   border-radius: 10px;
+}
+.abouttext{
+   flex-basis: 50%;
+}
+.iconvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.playicon{
+    width: 50px;
+}
+.aboutuniversiy{
+    color: blue;
+    margin-bottom: 10px;
+}
+.abouttext h1{
+    margin-bottom: 10px;
+}
+/* --media query */
+@media(max-width:730px){
+    .about{
+        flex-direction: column;
+        
+    }
+    .AboutIMage{
+        flex-basis: 100%;
+        margin: 15px;
+    }
+ 
+
+}

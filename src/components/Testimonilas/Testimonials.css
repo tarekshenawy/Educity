@@ -1,0 +1,55 @@
+.Testiomonials{
+    margin: 80px auto ;
+    position: relative;
+    overflow:hidden;
+}
+.backicon , .nexticon{
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 35px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.backicon{
+    left: 0;
+    right: auto;
+}
+.cards{
+    display: flex;
+    width: 200%;
+   
+}
+.card{
+    width: 50%;
+    padding: 20px;
+    color: rgba(128, 128, 128, 0.84);
+}
+.cardtext{
+    margin-top: 10px;
+}
+.cardimage{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+.cardimage p{
+    color: blue;
+}
+.cardimage img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+
+
+
+
+
